@@ -4,4 +4,4 @@ metadata:
   name: app-config
 data:
   course_name: "Kubernetes Deep Dive"
-  course_duration: "5 days"
+  course_duration: "6 days"
