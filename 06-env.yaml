@@ -1,0 +1,15 @@
+appVersion: v1
+kind: Pod
+metadata:
+  name: env
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      env:
+        - name: ENVIRONMENT
+          value: production
+        - name: DEBUG
+          value: "false"
+        - name: LOG_LEVEL
+          value: info
