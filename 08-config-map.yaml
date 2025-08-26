@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  course_name: "Kubernetes Deep Dive"
+  course_duration: "5 days"
